@@ -1,0 +1,318 @@
+h1{
+  color:Navy ;
+  text-decoration:underline ;
+  text-align: center ;
+  font-size:xx-larg ;
+}
+footer{
+  margin:100% 1500% 0% 0%;
+}
+.titre-un{
+  font-size: 1.em;
+  color: blue;
+  text-decoration: none;
+}
+.info-ecole{
+  margin-top: 10%;
+  /* height: 100vh; */
+  padding: 0% 0% 10% 0%;
+}
+.moteur-recherche{
+  width: 25%;
+  height: 50px;
+  border-radius: 10px;
+  border: solid black 1px;
+  display: flex;
+  margin:3% 0% 0% 72%;
+}
+.recherche{
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 80%;
+  padding-left: 3%;
+  border-radius: 10px 0px 0px 10px;
+  
+}
+.envoie{
+  border: none;
+  outline: none;
+  background-color: white;
+  width: 30%;
+  height: auto;
+  font-size: 0.5em;
+  padding-left: 1%;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #CCC;
+  color: white;
+}
+p{
+	color:black;
+	font-size:large;
+	text-align:justify
+}
+.image-flotante{
+  border-radius: 15px;
+  width: 450%;
+  height: 150%;
+  margin-top: 5%;
+}
+
+li{
+	color:Tomato ;
+}
+.imot{
+	width:10%;
+	height:50%;
+	float:left;
+}
+.textmot{
+	width:50%;
+	height:50%;
+	float:right;
+}
+.pagemenu{
+	background-color:grey ;  
+	
+}
+td{	
+		font-size:large ;
+		text-align:center;
+}
+nav{
+	color:brown ; text-decoration: cornsilk;
+}
+
+h1{
+  color: blue;
+  padding: 5px;
+}
+h1{
+	color:Navy ; 
+	text-decoration:underline ;
+	text-align: center ;
+	font-size:xx-larg ;
+	margin-top: 20px ;
+}
+h3{
+	text-align:justify
+}
+p{
+	color:black;
+	font-size:large;
+	text-align:justify
+}
+
+body{
+	background-color: cornsilk;
+	text-align:justify; 
+	margin: 0;
+	padding: 0;
+
+}
+.Batiment{
+	margin-top:50px
+}
+.imot{
+	width:10%;
+	/* height:50%; */
+	float:left;
+	margin-top: 50px ;
+}
+.textmot{
+	width:50%;
+	height:50%;
+	float:right;
+}
+.pagemenu{
+	background-color:grey ;  
+	
+}
+td{	
+		font-size:large ;
+		text-align:center;
+
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+div.Pr�sentation {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.Contact a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+
+/*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: white; */
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: #FFFFFF;
+    border-bottom: 2px solid gold;
+    color: black;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+footer{
+  height: 20vh;
+  width: 100%;
+  background-color: #444;
+  color: black;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ?";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  
+}
+.container{
+  margin: 8% auto;
+  width: 70vw;
+  height: 70vh;
+  border: black solid 1px;
+  box-shadow: #444 2px 4px 8px 3px;
+  background-color: white;
+  
+}
+.contact{
+  background-color: crimson;
+
+}
+.social-media col-md-6 col-sm-12{
+  -webkit-tap-highlight-color: transparent;
+font-size: 1rem;
+font-weight: 400;
+color: #232323;
+font-family: Dosis;
+font-style: normal;
+line-height: 1.5;
+text-align: center!important;
+box-sizing: inherit;
+position: relative;
+width: 100%;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+flex: 0 0 100%;
+max-width: 100%;
+display: -webkit-flex;
+justify-content: center;
+align-items: center;
+}
+b{
+  color:blue;
+}
+.para{
+  width: 90%;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+.para1{
+  text-align: justify;
+  padding-left: 3%;
+  margin: 5% 2% 5% 3%;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 300;
+  line-height: 25px;
+}
+.info{
+  list-style: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: cornflowerblue;
+  font-weight: 500;
+  padding-left: 3%;
+  margin: 5% 2% 5% 0%;
+}
+.info-sup{
+  font-size: 1em;
+  text-transform: uppercase;
+  color: cornflowerblue;
+  font-weight: 500;
+  padding-left: 3%;
+  margin: 2% 2% 2% 2%;
+}
+
+img src="gmail.png"{
+  margin: 10 20 10 20 
+ 
+}
